@@ -1,0 +1,14 @@
+MODEL:
+  height: 320  # input model height
+  width: 512  # input model width
+  onnx_file: yolo_pose/weights/yolov8n-pose.onnx  # path to onnx file
+  conf: 0.25  # confidence threshold
+  iou: 0.45  # iou threshold for nms
+OPTIONS:
+  #source: media/test.mp4
+  source: 0
+  frame_width: 1920  # output frame width
+  frame_height: 1080  # output frame height
+  reset_key: q  # key to reset a counter
+  leg_angle: 80  # angle in knees to consider squat done
+  body_angle: 90  # angle in hips to consider squat done

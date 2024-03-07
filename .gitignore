@@ -1,0 +1,6 @@
+yolo_pose/__pycache__
+utils/__pycache__
+streams/__pycache__
+*.pt
+.vscode
+video_logs
